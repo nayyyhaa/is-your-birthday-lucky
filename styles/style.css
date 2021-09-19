@@ -59,6 +59,7 @@ button:hover {
 
 i {
     cursor: pointer;
+    color: white;
 }
 
 #privacyAlert {
@@ -93,6 +94,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--secondary-color);
+    color: white;
 }
 
 ul {
