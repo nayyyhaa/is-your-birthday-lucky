@@ -62,10 +62,15 @@ i {
     color: white;
 }
 
+.fa-times {
+    color: var(--secondary-color);
+}
+
 #privacyAlert {
-    border: 1px solid var(--secondary-color);
-    width: 50vw;
+    border: 2.5px solid var(--secondary-color);
+    border-radius: 0.5rem;
     margin: 1rem;
+    padding: 1rem;
     text-align: center;
     display: none;
 }
@@ -106,5 +111,15 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    label {
+        flex-direction: column;
+    }
 }
 
