@@ -5,7 +5,7 @@ let output = document.querySelector('.output');
 let privacyAlert = document.querySelector('#privacyAlert');
 let privacyText = document.querySelector('#privacyPolicyText');
 let closeIcon = document.querySelector('.fas.fa-times');
-let messages = ['Yay! Your Birthday is lucky.', 'Oopsie! Your birthday is not lucky.', 'Please enter valid Inputs!'];
+let messages = ['Yay! Your Birthday is lucky.🤩', 'Oopsie! Your birthday is not lucky. 🥺', 'Please enter valid Inputs!'];
 let messageIndex;
 //Functions
 
